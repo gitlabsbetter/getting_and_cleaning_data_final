@@ -25,7 +25,7 @@ This project and repo uses the R script [run_analysis.R](https://github.com/gitl
 ## [summary_data.txt](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/summary_data.txt) Overview
 - Primary output from the [run_analysis.R](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/run_analysis.R)
 
-### References
+### References For UCI Dataset
 
 University of California Irvine
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
