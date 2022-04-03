@@ -6,39 +6,52 @@ This is the "Code Book" of definitions for this projects scripts and final datas
 
 ### Primary data archive
 
-dataset_filename -> default filename of the zipped dataset downloaded from UCI
-dataset_url -> url to downwload the zip file if it doesnt exist in current directory
-dataset_dir -> default directory of the zip file once extracted
+__dataset_filename__ -> default filename of the zipped dataset downloaded from UCI
+
+__dataset_url__ -> url to downwload the zip file if it doesnt exist in current directory
+
+__dataset_dir__ -> default directory of the zip file once extracted
 
 ### Primary required datasets
 
-feature_list -> dataset containing features.txt which is a column index list essentially
-activity_list -> dataset containing the list of physical activities and their id code
-subject_test -> dataset containing the test subjects id's
-x_test -> dataset containing the the test subjects data, using feature_list for the column names
-y_test -> dataset containing the test subjects activity id info
-subject_train -> dataset containing the training subjects id's
-x_train -> dataset containing the the training subjects data, using feature_list for the column names
-y_train -> dataset containing the training subjects activity id info
+__feature_list__ -> dataset containing features.txt which is a column index list essentially
+
+__activity_list__ -> dataset containing the list of physical activities and their id code
+
+__subject_test__ -> dataset containing the test subjects id's
+
+__x_test__ -> dataset containing the the test subjects data, using feature_list for the column names
+
+__y_test__ -> dataset containing the test subjects activity id info
+
+__subject_train__ -> dataset containing the training subjects id's
+
+__x_train__ -> dataset containing the the training subjects data, using feature_list for the column names
+
+__y_train__ -> dataset containing the training subjects activity id info
 
 ### Merged datasets
 
-x_merge -> merge of x_test and x_train
-y_merge -> merge of x_train and y_train
-subject_merge -> merge of subject_test and subject_train
-merged_data -> full merge of subject_merge, x_merge, and y_merge
+__x_merge__ -> merge of x_test and x_train
+
+__y_merge__ -> merge of x_train and y_train
+
+__subject_merge__ -> merge of subject_test and subject_train
+
+__merged_data__ -> full merge of subject_merge, x_merge, and y_merge
 
 ### Cleaned datasets
 
-cleaned_data -> dataframe with only the subject, id, and any mean or std dev columns selected and with cleaned column naming
-summary_data -> dataframe with cleaned_data groupped by subject and activity and averaged all other columns
+__cleaned_data__ -> dataframe with only the subject, id, and any mean or std dev columns selected and with cleaned column naming
+
+__summary_data__ -> dataframe with cleaned_data groupped by subject and activity and averaged all other columns
 
 ## Data Output
 
-* Output file named summary_data.txt
-* Each field is standardized and bound within [-1, 1]
-* Each row represents the AVERAGE of all results for a given Subject and Activity group
-* List of fields/coulmns index and their name
+* __Output file named *summary_data.txt*__
+* __Each field is standardized and bound within [-1, 1]__
+* __Each row represents the AVERAGE of all results for a given Subject and Activity group__
+* __List of fields/coulmns index and their name__
 
 1. Subject
 2. Activity
