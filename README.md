@@ -15,6 +15,16 @@ This project and repo uses the R script [run_analysis.R](https://github.com/gitl
 5. Summarize/group the data by Subject and Activity, using the mean() function on all other fields
 6. Write out the summarized table to [summary_data.txt](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/summary_data.txt)
 
+
+## [CodeBook.md](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/CodeBook.md)
+- Lists all variables created/used in [run_analysis.R](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/run_analysis.R) and their definitions
+- Explains how the final datasets are cleaned and summarized
+- Explains how the output file [summary_data.txt](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/summary_data.txt) is represented
+- Lists all fields/columns in [summary_data.txt](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/summary_data.txt)
+
+## [summary_data.txt](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/summary_data.txt)
+- Primary output from the [run_analysis.R](https://github.com/gitlabsbetter/getting_and_cleaning_data_final/blob/main/run_analysis.R)
+
 ### References
 
 University of California Irvine
